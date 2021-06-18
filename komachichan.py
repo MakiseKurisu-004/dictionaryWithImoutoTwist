@@ -1,6 +1,6 @@
 import json
 from difflib import get_close_matches
-data = json.load(open("/Users/alfredleong/Downloads/data.json"))
+data = json.load(open("Enter your path for the json 'data.json' file."))
 data =  {k.lower(): v for k, v in data.items()}
 
 def di(dicti):
